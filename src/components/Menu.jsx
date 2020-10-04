@@ -29,14 +29,14 @@ const Menu = (props) => {
       onClick={handleSandvichClick}
       style={sendvichStyle}
     >
-      <img src="/src/img/union.png" alt="menu" />
+      <img src="https://raw.githubusercontent.com/DiOlllIV/wwtbam_game/master/src/img/union.png" alt="menu" />
     </div>
 
   const closeMenuBTN = (screenSize < 992) &&
     <div className="menu-list__close"
       onClick={handleSandvichClick}
     >
-      <img src="/src/img/close.png" alt="close menu" />
+      <img src="https://raw.githubusercontent.com/DiOlllIV/wwtbam_game/master/src/img/close.png" alt="close menu" />
     </div>;
 
   const setClassName = (level) => {
