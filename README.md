@@ -1,3 +1,5 @@
+To view build project open link: [Who wants to be a Millionaire](https://fervent-allen-49c4da.netlify.app).
+
 ## Available Scripts
 
 In the project directory, you can run:
