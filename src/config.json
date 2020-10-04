@@ -1,0 +1,272 @@
+{
+  "patterns" : {
+    "questions": [
+      {
+        "sum": "$500",
+        "question": "When was founded Genesis?",
+        "answers": [
+          {
+            "variant": "A",
+            "answer": "1967"
+          },
+          {
+            "variant": "B",
+            "answer": "2010"
+          },
+          {
+            "variant": "C",
+            "answer": "XV-VI century BC"
+          },
+          {
+            "variant": "D",
+            "answer": "2020"
+          }
+        ],
+        "correct": ["A", "B", "C"]
+      },
+      {
+        "sum": "$1,000",
+        "question": "Who created javascript language?",
+        "answers": [
+          {
+            "variant": "A",
+            "answer": "Kanye West"
+          },
+          {
+            "variant": "B",
+            "answer": "Keanu Reeves"
+          },
+          {
+            "variant": "C",
+            "answer": "Brendan Eich"
+          },
+          {
+            "variant": "D",
+            "answer": "Alexander Lukashenko"
+          }
+        ],
+        "correct": ["C"]
+      },
+      {
+        "sum": "$2,000",
+        "question": "What nickname did King Richard I of England have?", 
+        "answers": [
+          {
+            "variant": "A",
+            "answer": "Lionheart"
+          },
+          {
+            "variant": "B",
+            "answer": "Amateur"
+          },
+          {
+            "variant": "C",
+            "answer": "Chewbacca"
+          },
+          {
+            "variant": "D",
+            "answer": "Eagleeye"
+          }
+        ],
+        "correct": ["A"]
+      },
+      {
+        "sum": "$4,000",
+        "question": "In what year was Rus baptized", 
+        "answers": [
+          {
+            "variant": "A",
+            "answer": "867"
+          },
+          {
+            "variant": "B",
+            "answer": "988"
+          },
+          {
+            "variant": "C",
+            "answer": "987"
+          },
+          {
+            "variant": "D",
+            "answer": "999"
+          }
+        ],
+        "correct": ["B"]
+      },
+      {
+        "sum": "$8,000",
+        "question": "In 1924 and 1948, Germany was punished for unleashing wars in the same way Sparta was. What is this punishment?", 
+        "answers": [
+          {
+            "variant": "A",
+            "answer": "Forbidden to eat hummus"
+          },
+          {
+            "variant": "B",
+            "answer": "Soldiers are left without boots"
+          },
+          {
+            "variant": "C",
+            "answer": "Water cut off throughout Germany"
+          },
+          {
+            "variant": "D",
+            "answer": "Athletes are banned from the Olympics"
+          }
+        ],
+        "correct": ["D"]
+      },
+      {
+        "sum": "$16,000",
+        "question": "In what country do kangaroos live?", 
+        "answers": [
+          {
+            "variant": "A", 
+            "answer": "kangarooland"
+          },
+          {
+            "variant": "B", 
+            "answer": "Australia"
+          },
+          {
+            "variant": "C", 
+            "answer": "Tasmania"
+          },
+          {
+            "variant": "D", 
+            "answer": "Ukraine"
+          }
+        ],
+        "correct": ["B", "C"]
+      },
+      {
+        "sum": "$32,000",
+        "question": "What was the name of the supreme authority in ancient Rome?", 
+        "answers": [
+          {
+            "variant": "A",
+            "answer": "Verkhovna Rada"
+          },
+          {
+            "variant": "B",
+            "answer": "Senate"
+          },
+          {
+            "variant": "C",
+            "answer": "FBI"
+          },
+          {
+            "variant": "D",
+            "answer": "KGB"
+          }
+        ],
+        "correct": ["B"]
+      },
+      {
+        "sum": "$64,000",
+        "question": "Which country did Nikolai Gogol call 'the homeland of his soul'?", 
+        "answers": [
+          {
+            "variant": "A",
+            "answer": "France"},
+          {
+            "variant": "B",
+            "answer": "German"},
+          {
+            "variant": "C",
+            "answer": "Ukraine"},
+          {
+            "variant": "D",
+            "answer": "Italy"}
+        ],
+        "correct": ["D"]
+      },
+      {
+        "sum": "$125,000",
+        "question": "What in Japan usually given to newlyweds with wishes to be inseparable", 
+        "answers": [
+          {
+            "variant": "A",
+            "answer": "O hashi"},
+          {
+            "variant": "B",
+            "answer": "Tanuki"},
+          {
+            "variant": "C",
+            "answer": "Accordion"},
+          {
+            "variant": "D",
+            "answer": "Daishō"}
+        ],
+        "correct": ["A"]
+      },
+      {
+        "sum": "$250,000",
+        "question": "How many countries are in the UK?", 
+        "answers": [
+          {
+            "variant": "A",
+            "answer": "6"
+          },
+          {
+            "variant": "B",
+            "answer": "1"
+          },
+          {
+            "variant": "C",
+            "answer": "4"
+          },
+          {
+            "variant": "D",
+            "answer": "3"}
+        ],
+        "correct": ["C"]
+      },
+      {
+        "sum": "$500,000",
+        "question": "What did Japan begin to produce in 1227 when Toshiro returned from China after 4 years of training?", 
+        "answers": [
+          {
+            "variant": "A",
+            "answer": "Rubber"
+          },
+          { "variant": "B", 
+            "answer": "Fireworks"
+          },
+          {
+            "variant": "C", 
+            "answer": "Motherboard"
+          },
+          {
+            "variant": "D", 
+            "answer": "Porcelain"
+          }
+        ],
+        "correct": ["D"]
+      },
+      {
+        "sum": "$1,000,000",
+        "question": "The African Swahili people have a legend that says that the first man came down to earth from heaven. Who helped him do this?",
+        "answers": [
+          {
+            "variant": "A",
+            "answer": "God"
+          },
+          {
+            "variant": "B",
+            "answer": "Keanu Reeves"
+          },
+          {
+            "variant": "C", 
+            "answer": "Eagle"
+          },
+          {
+            "variant": "D", 
+            "answer": "Giraffe"
+          }
+        ],
+        "correct": ["D"]
+      }
+    ]
+  }
+}

@@ -1,0 +1,157 @@
+@import '../styles/beakpoints.scss';
+
+.game {
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  background-color: #E5E5E5;
+
+  &-section {
+    margin: 23.0899vh auto 0 auto;
+
+    @include for-large-up {
+      margin-top: 14.7778vh;
+    }
+
+    &__question {
+      width: 288px;
+      height: 63px;
+      font-size: 18px;
+      font-weight: 600;
+      text-align: center;
+      margin: auto auto 22%;
+
+      @include for-large-up {
+        width: 43.334vw;
+        height: 3.779vh;
+        margin-left: 5.556vw;
+        margin-bottom: 48vh;
+        font-size: 3.556vh;
+        text-align: left;
+      }
+    }
+
+    &__answers{
+      display: flex;
+      flex-direction: column;
+
+      @include for-large-up {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: 6.667vw;
+      }
+    }
+  }
+}
+
+.answer-container {
+    display: flex;
+    align-items: center;
+
+  & hr {
+    width: 17px;
+    border: 0;
+    height: 1px;
+    background: #D0D0D8;
+  }
+
+  &__outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 0;
+    width: 289px;
+    height: 57px;
+    clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 100%, 0 50%, 0 50%);
+    background-color: #D0D0D8;
+
+    @include for-large-up {
+      width: 27.084vw;
+      height: 8vh;
+    }
+  }
+
+  &__inner {
+    width: 288px;
+    height: 56px;
+    background-color: #FFFFFF;
+    clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 100%, 0 50%, 0 50%);
+    font-size: 14px;
+    font-weight: 400;
+    border-style: none;
+    text-align: left;
+    padding-left: 24px;
+
+    @include for-large-up {
+      width: 99.5%;
+      height: 96%;
+      font-size: 1.389vw;
+    }
+
+    & span {
+      margin: 0 8px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #FF8B37;
+
+      @include for-large-up {
+        font-weight: 600;
+        font-size: 1.389vw;
+        margin: 0 0.556vw 0 2.223vw;
+      }
+    }
+  }
+
+  &:hover {
+    & .answer-container__outer {
+      background-color: #FFAC70;
+    }
+
+    & hr{
+      background: #FFAC70;
+    }
+  }
+}
+
+.clicked {
+  & .answer-container__outer {
+    background-color: #FFAC70;
+  }
+
+  & .answer-container__inner {
+    background-color: #FFF3EB;
+  }
+
+  & hr{
+    background: #FFAC70;
+  }
+}
+
+.correct {
+  & .answer-container__outer {
+    background-color: #47D867;
+  }
+
+  & .answer-container__inner {
+    background-color: #E6FAEA;
+  }
+
+  & hr{
+    background: #47D867;
+  }
+}
+
+.incorrect {
+  & .answer-container__outer {
+    background-color: #EC6259;
+  }
+
+  & .answer-container__inner {
+    background-color: #FDEEED;
+  }
+
+  & hr{
+    background: #EC6259;
+  }
+}

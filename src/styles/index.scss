@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Inter', sans-serif;
+
+  & button:hover {
+    cursor: pointer;
+  }
+}
+

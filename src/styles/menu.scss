@@ -1,0 +1,120 @@
+@import '../styles/beakpoints.scss';
+
+.menu {
+  position: absolute;
+  right: 0;
+  background-color: #E5E5E5;
+  z-index: 1;
+
+  @include for-large-up {
+    position: initial;
+    width: 26.112vw;
+    margin: auto 0 auto auto;
+    background-color: #fff;
+  }
+
+  &-sendvich {
+    & img {
+      padding: 22px;
+    }
+  }
+
+  &-list {
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 64px;
+    margin-bottom: 32px;
+
+    @include for-large-up {
+      width: 100%;
+      margin: 0;
+      justify-content: center;
+    }
+    
+    &__close {
+      position: fixed;
+      right: 22px;
+      top: 22px;
+      width: 13px;
+      height: 13px;
+    }
+
+    &__item {
+      display: flex;
+      align-items: center;
+
+      & hr:first-child {
+        margin-right: 0;
+      }
+
+      & hr:last-child {
+        margin-left: 0;
+      }
+      
+      & hr {
+        width: 41px;
+        border: 0;
+        height: 1px;
+        background: #D0D0D8;
+        @include for-large-up {
+          width: 69px;
+        }
+      }
+
+      &-outer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 8px 0;
+        width: 240px;
+        height: 32px;
+        clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 100%, 0 50%, 0 50%);
+        background-color: #D0D0D8;
+
+        @include for-large-up {
+          height: 4.445vh;
+          width: 16.912vw;
+        }
+      }
+
+      &-inner{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 99%;
+        height: 92%;
+        background-color: #FFFFFF;
+        clip-path: polygon(10% 0, 90% 0, 100% 50%, 100% 50%, 90% 100%, 10% 100%, 0 50%, 0 50%);
+        font-size: 14px;
+        font-weight: 400;
+        border-style: none;
+        text-align: left;
+
+        @include for-large-up {
+          font-size: 1.389vw;
+        }
+      }
+    }
+  }
+}
+
+.revers {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.actual {
+
+  & .menu-list__item-outer{
+    background-color:  #FF8B37;
+  }
+
+  & hr {
+    background: #FF8B37;
+  }
+}
+
+.passed {
+  opacity: 0.5;
+}

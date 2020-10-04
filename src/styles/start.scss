@@ -1,0 +1,83 @@
+@import './beakpoints.scss';
+
+.start {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;                   
+  height: 100vh;
+  width: 100vw;
+  background: linear-gradient(to left top, #FFF3EB 50%, #ffffff 50%);
+
+  @include for-large-up {
+    flex-direction: row; 
+  }
+}
+
+.image {
+  width: 196px;
+  height: 155px;
+  
+  & img{
+    width: 100%;
+  }
+
+  @include for-large-up {
+    width: 450px;
+    height: 356px;
+    margin-left: 80px;  
+  }
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @include for-large-up {
+    align-items: flex-start;
+    width: 624px;
+    margin-left: 8%;  
+  }
+
+  &-paragraph {
+    min-width: 288px;
+    min-height: 74px;
+    font-weight: 600;  
+    font-size: 32px; 
+    text-align: center;
+
+    @include for-large-up {
+      font-size: 56px;
+      text-align: left;
+    }
+  }
+
+  &-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 288px;
+    height: 48px;
+    border-radius: 8px;
+    border-style: none;
+    background-color: #FF8B37;
+    color: #ffffff;
+    font-size: 24px;
+    text-decoration: none;
+
+    &:hover {
+      background-color: #FFAC70;
+    }
+  
+    &:active {
+      background-color: #FFAC70;
+    }
+
+    @include for-large-up {
+      width: 296px;
+      height: 64px; 
+      border-radius: 12px;
+    }
+  }
+}
