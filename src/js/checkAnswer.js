@@ -38,6 +38,7 @@ const checkAnswer = (e, variant, history, props) => {
       
       setTimeout(() => {
         props.setActualSum(sum);
+        props.setActualLevel([]);
         const [from, to] = props.actualLevel;
         props.setActualLevel([from+1, to+1]);
         props.setPassed([...props.passed, sum]);
